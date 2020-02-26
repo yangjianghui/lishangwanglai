@@ -1,12 +1,12 @@
 import React,{Component} from 'react'
 
-export default class courtesyZ extends Component{
+export default class one extends Component{
     constructor(){
         super()
     }
     render(){
         return (
-            <div>礼帐</div>
+            <div>礼事</div>
         )
     }
 }

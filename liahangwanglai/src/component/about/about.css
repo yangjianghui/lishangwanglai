@@ -36,22 +36,18 @@
 .touxiang{
     border-width: 0px;
     position: absolute;
-    left: 210px;
     top: 100px;
     width: 62px;
     height: 62px;
 }
 .touxiang img{
     border-width: 0px;
-    position: absolute;
-    left: 0px;
-    top: 0px;
     width: 62px;
     height: 62px;
 }
 .WX_name{
     position: absolute;
-    left: 282px;
+    left: 40%;
     top: 125px;
     width: 121px;
     height: 16px;

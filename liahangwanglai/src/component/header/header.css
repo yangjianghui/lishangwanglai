@@ -1,7 +1,7 @@
 #footer{
     width: 376px;
     position: absolute;
-    bottom: 5px;
+    bottom: 150px;
     height: 60px;
     background: #fff;
     line-height: 60px;
@@ -17,5 +17,5 @@
 #head{
     height: 25px;
     line-height: 25px;
-    background: red;
+    background: gray;
 }
