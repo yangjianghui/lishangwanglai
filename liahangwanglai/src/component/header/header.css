@@ -1,0 +1,21 @@
+#footer{
+    width: 376px;
+    position: absolute;
+    bottom: 5px;
+    height: 60px;
+    background: #fff;
+    line-height: 60px;
+    display: flex;
+}
+#footer li{
+    text-align: center;
+    flex: 1;
+}
+#footer li a{
+    color: #000;
+}
+#head{
+    height: 25px;
+    line-height: 25px;
+    background: red;
+}

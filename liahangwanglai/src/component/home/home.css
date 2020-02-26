@@ -1,0 +1,229 @@
+.home_top{
+    width: 376px;
+    height: 280px;
+    background: #e4e4e4;
+    position: relative;
+}
+.historical{
+    position: absolute;
+    left: 152px;
+    top: 35px;
+    width: 72px;
+    height: 72px;
+    font-family: 'Arial Negreta', 'Arial Normal', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    color: #FFFFFF;
+}
+.historical img{
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 72px;
+    height: 72px;
+}
+.profitloss{
+    position: absolute;
+    left: 5px;
+    top: 17px;
+    width: 72px;
+    height: 72px;
+    font-family: 'Arial Negreta', 'Arial Normal', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    color: #FFFFFF;
+}
+.t_month{
+    border-width: 0px;
+    position: absolute;
+    left: 152px;
+    top: 145px;
+    width: 72px;
+    height: 72px;
+    font-family: 'Arial Negreta', 'Arial Normal', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    color: #FFFFFF;
+}
+.his_gifts{
+    border-width: 0px;
+    position: absolute;
+    left: 70px;
+    top: 54px;
+    width: 53px;
+    height: 32px;
+    font-size: 13px;
+    color: #666666;
+}
+.his_div{
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 53px;
+    height: 32px;
+    background: inherit;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+}
+.his_text{
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 53px;
+    white-space: nowrap;
+    font-size: 13px;
+    color: #666666;
+}
+
+.his_gift{
+    border-width: 0px;
+    position: absolute;
+    left: 262px;
+    top: 54px;
+    width: 53px;
+    height: 32px;
+    font-size: 13px;
+    color: #666666;
+}
+
+.june_gifts{
+    border-width: 0px;
+    position: absolute;
+    left: 70px;
+    top: 165px;
+    width: 53px;
+    height: 32px;
+    font-size: 13px;
+    color: #666666;
+}
+.june_div{
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 53px;
+    height: 32px;
+    background: inherit;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+}
+.june_text{
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 53px;
+    white-space: nowrap;
+    font-size: 13px;
+    color: #666666;
+}
+
+.june_gift{
+    border-width: 0px;
+    position: absolute;
+    left: 262px;
+    top: 165px;
+    width: 53px;
+    height: 32px;
+    font-size: 13px;
+    color: #666666;
+}
+.his_june{
+    border-width: 0px;
+    position: absolute;
+    left: 188px;
+    top: 109px;
+    width: 1px;
+    height: 37px;
+}
+.his_june img{
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 2px;
+    height: 38px;
+}
+.june_face{
+    border-width: 0px;
+    position: absolute;
+    left: 188px;
+    top: 216px;
+    width: 1px;
+    height: 30px;
+}
+.june_face img{
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 2px;
+    height: 31px;
+}
+.smilingface{
+    border-width: 0px;
+    position: absolute;
+    left: 180px;
+    top: 248px;
+    width: 19px;
+    height: 19px;
+}
+.smilingface img{
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 19px;
+    height: 19px;
+}
+.ul1{
+    width: 375px;
+    height: 35px;
+    line-height: 35px;
+    background: inherit;
+    background-color: rgba(188, 188, 188, 1);
+    display: flex;
+    color: #333;
+}
+.ul1 li{
+    flex: 1;
+    text-align: center;
+    font-size: 14px;
+}
+
+.list1{
+    width: 375px;
+    height: 26px;
+    text-align: left;
+    position: relative;
+    color: #333;
+}
+.list1_div{
+    width: 375px;
+    height: 26px;
+    background: inherit;
+    background-color: rgba(255, 255, 255, 1);
+    text-align: left;
+}
+.list1_text{
+    font-size: 13px;
+    top: 4px;
+    transform-origin: 185.5px 9px;
+    border-width: 0px;
+    position: absolute;
+    left: 2px;
+    width: 371px;
+    word-wrap: break-word;
+    display: flex;
+}
+.list1_text li{
+    flex: 1;
+    text-align: center;
+}
