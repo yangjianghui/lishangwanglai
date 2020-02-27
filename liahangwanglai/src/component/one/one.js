@@ -1,6 +1,6 @@
 import React,{Component} from 'react'
 
-export default class one extends Component{
+export default class lishi extends Component{
     constructor(){
         super()
     }

@@ -1,0 +1,50 @@
+.my_text{
+    line-height: 50px;
+    font-family: 'Arial Normal', 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    position: relative;
+}
+.left{
+    position: absolute;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    left: 10px;
+}
+.left img{
+    width: 20px;
+    height: 20px;
+}
+.fen{
+    line-height: 50px;
+    font-family: 'Arial Normal', 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    /* text-align: center; */
+    position: relative;
+    background: #fff;
+    height: 50px;
+    border-bottom: 10px solid rgba(242, 242, 242, 1);
+    color: #333;
+}
+.fen div:nth-of-type(1),.fen div:nth-of-type(3){
+    position: absolute;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+}
+.fen div:nth-of-type(1) img,.fen div:nth-of-type(3) img{
+    width: 20px;
+    height: 20px;
+}
+.fen div:nth-of-type(1){
+    left: 10px;
+}
+.fen div:nth-of-type(3){
+    right: 10px;
+}
+.xiang{
+    margin-left: 50px;
+}

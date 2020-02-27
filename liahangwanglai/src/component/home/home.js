@@ -10,14 +10,12 @@ export default class home extends Component{
             <div style={{background:'#f2f2f2',height:'546px'}}>
                 <div className='home_top'>
                     <div className="historical">
-                        {/* <img src="http://www.axshare.cn/gsc/9B0J2A/6b/b2/f3/6bb2f30d8aa742729e588769883d60fd/images/首页/u22.png?token=b58778d4cbbe4915eaca773d8040b7e154c1a9a3299618d1e3424206c1614192"/> */}
                         <div className="profitloss">
                             <p><span>历史盈亏</span></p>
                             <p><span>2948.00</span></p>
                         </div>
                     </div>
                     <div className="t_month">
-                        {/* <img src="http://www.axshare.cn/gsc/9B0J2A/6b/b2/f3/6bb2f30d8aa742729e588769883d60fd/images/首页/u27.png?token=4cdbd7a85d851eb5ba4596347c33c5f6217394d658f7147f63e23afeaafbdea4"/> */}
                         <div className="profitloss">
                             <p><span>本月盈亏</span></p>
                             <p><span>2948.00</span></p>

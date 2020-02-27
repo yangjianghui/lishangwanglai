@@ -24,37 +24,26 @@
     width: 20px;
     height: 20px;
 }
-.right{
-    position: absolute;
-    top: 15px;
-    width: 40px;
-    height: 40px;
-    right: 10px;
-    color: #199ED8;
-}
-.kuang{
-    box-sizing: border-box;
-    /* margin: 5px; */
-    background: #fff;
-    height: 205px;
-    border: 5px solid rgba(242, 242, 242, 1);
-    color: #999;
-}
-.footer{
-    line-height: 45px;
+.jian{
+    line-height: 50px;
     font-family: 'Arial Normal', 'Arial';
     font-weight: 400;
     font-style: normal;
+    /* text-align: center; */
     position: relative;
     background: #fff;
-    height: 45px;
-    border-bottom: 15px solid rgba(242, 242, 242, 1);
-    color: #999;
-}.left1{
-    float: left;
-    padding-left: 5px;
+    height: 50px;
+    border-bottom: 10px solid rgba(242, 242, 242, 1);
+    color: #333;
 }
-.right2{
-    float: right;
-    padding-right: 5px;
+.jian div:nth-of-type(1){
+    position: absolute;
+    background: black;
+    top: 15px;
+    width: 20px;
+    height: 20px;
+    left: 10px;
+}
+.cha{
+    margin-left: 50px;
 }

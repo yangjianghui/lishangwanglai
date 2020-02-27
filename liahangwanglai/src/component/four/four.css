@@ -1,0 +1,51 @@
+.my_text{
+    line-height: 50px;
+    font-family: 'Arial Normal', 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    position: relative;
+}
+.left{
+    position: absolute;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    left: 10px;
+}
+.left img{
+    width: 20px;
+    height: 20px;
+}
+.box{
+    border-width: 0px;
+    position: relative;
+    height: 300px;
+    background: #fff;
+}
+.he{
+    border-width: 0px;
+    position: absolute;
+    left: 130px;
+    top: 100px;
+    width: 105px;
+    height: 105px;
+    background: inherit;
+    background-color: rgba(25, 158, 216, 1);
+    border: none;
+    border-radius: 10px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 105px;
+}
+.ping{
+    text-align: center;
+}
+.wei{
+    width: 317px;
+    margin: 0 auto;
+}
