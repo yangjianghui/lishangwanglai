@@ -1,0 +1,59 @@
+<!--pages/a/a.wxml-->
+<view class="box">
+  <view class="header">
+    <view class="left">
+      <view class="shou">
+        <image src="../../images/zhi_03.jpg"></image>
+        <view class="zi">上海</view>
+      </view>
+    </view>
+    <view class="right">
+      <view class="four">
+        <image src="../../images/zhi_05.jpg"></image>
+      </view>
+      <input type="text" placeholder="垃圾搜索查看"></input>
+    </view>
+  </view>
+  <view class="guang">
+    「全国版垃圾分类测试」上线， 朋友圈
+  </view>
+  <view class="page" >
+    <view class="bar">
+      <view class="bar1" wx:for="{{array}}">
+        {{item.message}}
+      </view>
+    </view>
+    <view class="sidbar" >
+      <view class="nei" wx:for="{{rong}}">
+        <view class="two">
+          <image src="../../images/zhi_10.jpg"></image>
+          <text>有害垃圾</text>
+        </view>
+        <view class="text">
+          {{item.text}}
+        </view>
+        <view class="text1">{{item.ol}}</view>
+        <ul class="text2">
+          <li>{{item.ul}}</li>
+          <li>{{item.ul1}}</li>
+          <li>{{item.ul2}}</li>
+          <li>{{item.ul3}}</li>
+        </ul>
+      </view>
+      <view class="one">
+        coco的青萝
+      </view>
+      <view class="one1">
+        姑娘果
+      </view>
+      <view class="one">
+        姑娘果
+      </view>
+      <view class="one1">
+        姑娘果
+      </view>
+    </view>
+    
+  </view>
+</view>
+

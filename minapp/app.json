@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/a/a",
+    "pages/b/b",
+    "pages/c/c",
+    "pages/d/d"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "垃圾分类指南",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#373737",
+    "selectedColor": "#e5be19",
+    "list": [
+      {
+        "iconPath": "images/a_03.jpg",
+        "selectedIconPath": "images/1_03.jpg",
+        "pagePath": "pages/a/a",
+        "text": "指南"
+      },
+      {
+        "iconPath": "images/1_05.jpg",
+        "selectedIconPath": "images/a_05.jpg",
+        "pagePath": "pages/b/b",
+        "text": "测试"
+      },
+      {
+        "iconPath": "images/1_07.jpg",
+        "selectedIconPath": "images/a1_03.jpg",
+        "pagePath": "pages/c/c",
+        "text": "专题"
+      },
+      {
+        "iconPath": "images/1_09.jpg",
+        "selectedIconPath": "images/a_07_03.jpg",
+        "pagePath": "pages/d/d",
+        "text": "设置"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

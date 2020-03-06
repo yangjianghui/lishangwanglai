@@ -1,0 +1,26 @@
+/* pages/b/b.wxss */
+.box{
+  width: 100%
+}
+.left{
+  margin-left: 51.3888rpx;
+  /* float: left; */
+  font-size: 27.777rpx;
+}
+.zhu{
+  font-size: 74.999rpx;
+  width: 100%;
+  text-align: center;
+  margin-top: 65.2777rpx;
+  /* float: left */
+}
+.la{
+  margin: 31.94444rpx auto;
+  border: 1px solid #ccc;
+  height: 102.7777rpx;
+  font-size: 33.33333rpx;
+  width: 465.27777rpx;
+  text-align: center;
+  line-height: 102.77777rpx;
+  border-radius: 50px;
+}

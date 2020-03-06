@@ -1,0 +1,12 @@
+<!--pages/c/c.wxml-->
+<view class="box">
+  <view class="one" wx:for="{{array}}">
+    <view class="img">
+      <image src="{{item.img}}"></image>
+    </view>
+    <view class="two">{{item.text}}</view>
+    <view class="jian">
+      <image src="../../images/zhuan_16.jpg"></image>
+    </view>
+  </view>
+</view>

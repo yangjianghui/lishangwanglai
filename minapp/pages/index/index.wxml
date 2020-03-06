@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="box">
+  <view>
+    
+  </view>
+  <!-- <view class="footer">
+    <div class="zhi" target="miniProgram" path="/">
+      指南
+    </div>
+    <div class="zhi" target="miniProgram" path="../b/b">
+      测试
+    </div>
+    <div class="zhi" target="miniProgram" path="../c/c">
+      专题
+    </div>
+    <div class="zhi" target="miniProgram" path="../d/d">
+      设置
+    </div>
+  </view> -->
+</view>

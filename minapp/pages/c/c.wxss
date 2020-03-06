@@ -1,0 +1,41 @@
+/* pages/c/c.wxss */
+.box{
+  background: #f2f2f2;
+  width: 100%;
+  height: 1362.4999rpx;
+}
+.one{
+  margin: 26.3888rpx;
+  box-sizing: border-box;
+  /* box-sizing: content-box; */
+  width: 93%;
+  height: 130.694rpx;
+  border-radius: 10px;
+  background: #fff;
+  font-size: 34.027rpx;
+  line-height: 130.694rpx;
+  float: left;
+}
+.img{
+  width: 79.861rpx;
+  height: 83.33333rpx;
+  float: left;
+  margin: 31.9444rpx;
+}
+.img image{
+  width: 79.861rpx;
+  height: 83.33333rpx;
+}
+.two{
+  float: left;
+}
+.jian{
+  float: right;
+  margin: 0 31.9444rpx;
+  width: 28.0555rpx;
+  height: 44.58333rpx;
+}
+.jian image{
+  width: 28.0555rpx;
+  height: 44.58333rpx;
+}

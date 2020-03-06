@@ -1,0 +1,11 @@
+<!--pages/d/d.wxml-->
+<view class="box">
+  <view class="one">语言</view>
+  <view class="two" wx:for="{{array}}">
+    {{item.a}}
+  </view>
+  <view class="one">城市</view>
+  <view class="two" wx:for="{{one}}">
+    {{item.b}}
+  </view>
+</view>

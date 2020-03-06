@@ -1,0 +1,9 @@
+<!--pages/b/b.wxml-->
+<view class="box">
+  <view class="left">01/10</view>
+  <view class="zhu">注射器</view>
+  <view class="la">湿垃圾</view>
+  <view class="la">干垃圾</view>
+  <view class="la">可回收垃圾</view>
+  <view class="la">有害垃圾</view>
+</view>

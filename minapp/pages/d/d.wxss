@@ -1,0 +1,20 @@
+/* pages/d/d.wxss */
+.box{
+  width: 100%;
+}
+.one{
+  background: #f0f0f0;
+  color: #afafaf;
+  height: 106.944444rpx;
+  font-size: 24.305555rpx;
+  line-height: 106.94444rpx;
+  padding-left: 37.999rpx;
+}
+.two{
+  background: #fff;
+  border-top: 1px solid #eeeeee;
+  font-size: 27.777rpx;
+  height: 87.49999rpx;
+  line-height: 87.49999rpx;
+  padding-left: 47.999rpx;
+}

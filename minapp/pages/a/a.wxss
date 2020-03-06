@@ -1,0 +1,142 @@
+/* pages/a/a.wxss */
+.box{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  padding-top: 34.027rpx;
+  height: 79.166rpx;
+  width: 100%;
+  margin-bottom: 34.027rpx;
+}
+.shou image,.four image{
+  width: 43.33333rpx;
+  height: 43.33333rpx;
+  float: left;
+}
+.two image{
+  width: 65.94222rpx;
+  height: 65.94222rpx;
+  padding: 22rpx 33rpx 0 33rpx;
+  float: left;
+}
+.two text{
+  text-align: center;
+  font-size: 19.4444rpx;
+  color: #fff;
+  float: left;
+  width: 100%;
+}
+.four{
+  width: 43.33333rpx;
+  height: 43.33333rpx;
+  padding: 21.527rpx 12.499rpx 24.305rpx 
+  22.222rpx;
+}
+.right{
+  margin-right: 22.222rpx;
+  background: #f7f7f7;
+  display: flex;
+  height: 69.1666rpx;
+  border-radius: 15px;
+}
+.right input{
+  width: 80%;
+  height: 79.1666rpx;
+  border-radius: 15px;
+  float: right;
+  /* margin-left: 10%; */
+  font-size: 29.1666rpx;
+}
+.left{
+  height: 79.1666rpx;
+  float: left;
+  width: 110.999rpx;
+  font-size: 29.1666rpx;
+  line-height: 29.1666rpx;
+  padding-right: 39.999rpx;
+}
+.shou{
+  padding: 21.527rpx 12.499rpx 24.305rpx 
+  22.222rpx;
+  height: 33.333rpx;
+  float: left;
+  width: 99.999rpx;
+}
+.zi{
+  float: left;
+}
+.guang{
+  background: #fef8e8;
+  color: #977722;
+  height:59.027rpx;
+  line-height: 59.027rpx;
+  font-size: 24.305rpx;
+}
+.page{
+  width: 100%;
+  height: auto;
+}
+.bar{
+  width: 25%;
+  height: auto;
+  line-height: auto;
+  color: #999;
+  text-align: center;
+  float: left;
+}
+.two{
+  margin: 0 auto;
+  width: 149.305rpx;
+  height: 147.222rpx;
+  background: #6e4a3e;
+}
+.bar1{
+  width: 100%;
+  height: 97.916rpx;
+  line-height: 97.916rpx;
+  color: #999;
+  text-align: center;
+  float: left;
+}
+.sidbar{
+  width: 67%;
+  float: left;
+  box-sizing: border-box;
+  margin: 24.305rpx;
+  padding: 29.861rpx 0;
+}
+.nei{
+  background: #f5f1ee;
+  width: 100%;
+  height: 865rpx;
+  padding: 29.861rpx 20.805rpx;
+  box-sizing: border-box;
+}
+.text{
+  line-height: 57.638rpx;
+  font-size: 26.3888rpx;
+}
+.text1{
+  font-size: 29.3888rpx;
+}
+.text2{
+  font-size: 26.3888rpx;
+}
+ul>li{
+  float: left;
+  line-height: 57.638rpx;
+}
+.one{
+  height: 97.916rpx;
+  float: left;
+  line-height: 97.916rpx; 
+  width: 100%;
+}
+.one1{
+  height: 97.916rpx;
+  float: left;
+  line-height: 97.916rpx; 
+  width: 100%;
+  background: #f8f8f8;
+}
