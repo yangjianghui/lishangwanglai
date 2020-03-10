@@ -1,0 +1,105 @@
+/* pages/a/a.wxss */
+.box{
+  width: 100%;
+  height: auto;
+}
+.header{
+  height: 580.55555rpx;
+  width: 100%;
+  background: #e02c38;
+}
+.qian{
+  height: 55.555rpx;
+  padding-top: 50rpx;
+}
+.left{
+  background: #f3936d;
+  height: 55.555rpx;
+  float: left;
+  color: #fff5f0;
+  font-size: 22.91666rpx;
+  line-height: 55.5555rpx;
+  width: 140.9777rpx;
+  text-align: center;
+  border-radius: 0 28rpx 28rpx 0;
+}
+.right{
+  float: right;
+  padding-right: 52.08333rpx;
+  font-size: 22.91666rpx;
+  line-height: 55.5555rpx;
+  color: #fff5f0;
+}
+.bar,.barr{
+  width: 25%;
+  height: 309.02777rpx;
+  float: left;
+}
+.one,.two,.three,.four{
+  width: 110.666rpx;
+  height: 150.666rpx;
+  position: absolute;
+}
+.bar1,.bar2,.barr1,.barr2{
+  width: 91.666rpx;
+  background: #ffcf69;
+  color: #fff;
+  height: 91.666rpx;
+  line-height: 91.666rpx;
+  text-align: center;
+  border-radius: 50%;
+}
+.one{
+  left: 77.08333rpx;
+  top: 140.27777rpx;
+}
+.two{
+  right: 77.08333rpx;
+  top: 140.27777rpx;
+}
+.text{
+  font-size: 18.75rpx;
+  color: #fff;
+}
+.three{
+  left: 50.08333rpx;
+  top: 330.27777rpx;
+}
+.four{
+  right: 50.08333rpx;
+  top: 330.27777rpx;
+}
+.zhong{
+  width: 47%;
+  height: 309.02777rpx;
+  border-radius: 50%;
+  border: 13.888rpx dashed #fff;
+  float: left;
+  text-align: center;
+  color: #fff;
+}
+.top{
+  padding-top: 82.638888rpx;
+  font-size: 22.916rpx;
+}
+.shu{
+  line-height: 125.69444rpx;
+  height: 125.69444rpx;
+  font-size: 61.777rpx;
+}
+.jin{
+  font-size: 21.52777rpx;
+}
+.yao{
+  height: 90.27777rpx;
+  width: 388.19444rpx;
+  font-size: 29.86111rpx;
+  /* margin: 0 auto; */
+  line-height: 90.2777rpx;
+  text-align: center;
+  color: #f9fff6;
+  background: #ff7508;
+  margin-left: 1%;
+  float: left;
+  border-radius: 45rpx;
+}

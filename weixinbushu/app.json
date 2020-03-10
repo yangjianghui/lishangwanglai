@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/a/a",
+    "pages/b/b",
+    "pages/c/c",
+    "pages/d/d"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "开心步步赚",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#373737",
+    "selectedColor": "#be3d38",
+    "list": [
+      {
+        "iconPath": "images/a_03.jpg",
+        "selectedIconPath": "images/b_03.jpg",
+        "pagePath": "pages/a/a",
+        "text": "赚运动币"
+      },
+      {
+        "iconPath": "images/b_05.jpg",
+        "selectedIconPath": "images/a_05.jpg",
+        "pagePath": "pages/b/b",
+        "text": "步数红包"
+      },
+      {
+        "iconPath": "images/a_09.jpg",
+        "selectedIconPath": "images/a_09.jpg",
+        "pagePath": "pages/c/c",
+        "text": "步数挑战"
+      },
+      {
+        "iconPath": "images/a_11.jpg",
+        "selectedIconPath": "images/c_03.jpg",
+        "pagePath": "pages/d/d",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

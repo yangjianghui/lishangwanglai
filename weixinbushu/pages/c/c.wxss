@@ -1,0 +1,28 @@
+/* pages/c/c.wxss */
+.box{
+  width: 100%;
+  background: #fd661f;
+  height: auto;
+}
+.header{
+  height: 150.6944444rpx;
+  line-height: 150.69444444rpx;
+  text-align: center;
+  font-size: 85.41666666rpx;
+  color: #feef94;
+}
+.headerr{
+  font-size: 38.194444rpx;
+  height: 48.6111111rpx;
+  text-align: center;
+  line-height: 48.6111111rpx;
+  color: #fffcfe;
+}
+.dan{
+  color: #ffecff;
+  height: 61.111111rpx;
+  background: #8f40b3;
+  margin: 20.83333rpx 104.1666rpx 9.0277777rpx 104.166666rpx;
+  border-radius: 30rpx;
+  text-align: center;
+}

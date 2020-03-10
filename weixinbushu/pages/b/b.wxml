@@ -1,0 +1,24 @@
+<!--pages/b/b.wxml-->
+<view class="box">
+  <view class="header">每日福利</view>
+  <view class="headerr">完成步数得金币</view>
+  <view class="heng">
+    <view class="da">
+      <view class="xiao"></view>
+    </view>
+    <view class="zi">
+      <view>200步</view>
+      <view>500步</view>
+      <view>1000步</view>
+      <view>2000步</view>
+    </view>
+  </view>
+  <view class="hong">
+    <image src="../../images/c.jpg"></image>
+    <image src="../../images/c.jpg"></image>
+    <image src="../../images/c.jpg"></image>
+    <image src="../../images/c.jpg"></image>
+  </view>
+  <view class="text">观看完整视频获得运动币</view>
+  <view class="kong"></view>
+</view>

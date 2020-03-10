@@ -1,0 +1,39 @@
+<!--pages/a/a.wxml-->
+<view class="box">
+  <view class="header">
+    <view class="qian">
+      <view class="left">签到有礼</view>
+      <view class="right">了解运动币</view>
+    </view>
+    <view class="yuan">
+      <view class="bar">
+        <view class="one">
+          <view class="bar1">2</view>
+          <view class="text">幸运金币</view>
+        </view>
+        <view class="two">
+          <view class="bar2">2</view>
+          <view class="text">幸运金币</view>
+        </view>
+      </view>
+      <view class="zhong">
+        <view class="top">我的运动币</view>
+        <view class="shu">61</view>
+        <view class="jin">今日步数1414步</view>
+      </view>
+      <view class="barr">
+      <view class="three">
+          <view class="barr1">2</view>
+          <view class="text">幸运金币</view>
+        </view>
+        <view class="four">
+          <view class="barr2">2</view>
+          <view class="text">幸运金币</view>
+        </view>
+      </view>
+    </view>
+    <view class="yao">
+      邀请新好友得600运动币
+    </view>
+  </view>
+</view>

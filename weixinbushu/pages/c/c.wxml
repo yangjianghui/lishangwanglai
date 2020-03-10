@@ -1,0 +1,6 @@
+<!--pages/c/c.wxml-->
+<view class="box">
+  <view class="header">幸运大转盘</view>
+  <view class="headerr">100%中奖</view>
+  <view class="dan">恭喜思乡人获得200运动币</view>
+</view>
