@@ -9,6 +9,7 @@
   font-size: 24.305555rpx;
   line-height: 106.94444rpx;
   padding-left: 37.999rpx;
+  width: 100%;
 }
 .two{
   background: #fff;
@@ -17,4 +18,5 @@
   height: 87.49999rpx;
   line-height: 87.49999rpx;
   padding-left: 47.999rpx;
+  width: 100%;
 }

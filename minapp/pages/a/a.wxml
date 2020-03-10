@@ -1,4 +1,4 @@
-<!--pages/a/a.wxml-->
+<!-- pages/a/a.wxml -->
 <view class="box">
   <view class="header">
     <view class="left">
@@ -17,27 +17,22 @@
   <view class="guang">
     「全国版垃圾分类测试」上线， 朋友圈
   </view>
-  <view class="page" >
-    <view class="bar">
-      <view class="bar1" wx:for="{{array}}">
-        {{item.message}}
-      </view>
+  <block wx:for="{{data}}" wx:key="*this">
+    <view class="bar1">
+        {{item.name}}
     </view>
     <view class="sidbar" >
-      <view class="nei" wx:for="{{rong}}">
+      <view class="nei" >
         <view class="two">
           <image src="../../images/zhi_10.jpg"></image>
-          <text>有害垃圾</text>
+          <text>{{item.name}}</text>
         </view>
         <view class="text">
-          {{item.text}}
+          {{item.explain}}
         </view>
-        <view class="text1">{{item.ol}}</view>
+        <view class="text1">投放要求:</view>
         <ul class="text2">
-          <li>{{item.ul}}</li>
-          <li>{{item.ul1}}</li>
-          <li>{{item.ul2}}</li>
-          <li>{{item.ul3}}</li>
+          <li>{{item.require}}</li>
         </ul>
       </view>
       <view class="one">
@@ -53,7 +48,10 @@
         姑娘果
       </view>
     </view>
+  </block>
+  <!-- <view class="page" >
+        
+  </view> -->
     
-  </view>
 </view>
 

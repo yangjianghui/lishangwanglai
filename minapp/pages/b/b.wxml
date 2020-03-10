@@ -1,9 +1,8 @@
 <!--pages/b/b.wxml-->
-<view class="box">
-  <view class="left">01/10</view>
-  <view class="zhu">注射器</view>
-  <view class="la">湿垃圾</view>
-  <view class="la">干垃圾</view>
-  <view class="la">可回收垃圾</view>
-  <view class="la">有害垃圾</view>
+<view class="box" wx:for="{{array.list}}">
+  <view class="left">{{item.index}}/10</view>
+  <view class="zhu">{{item.title}}</view>
+  <view wx:for="{{item.a}}" wx:key="*this">
+    <view class="la">{{item}}</view>
+  </view>
 </view>

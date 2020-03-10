@@ -11,6 +11,8 @@ Page({
   },
   //事件处理函数
   bindViewTap: function() {
+    
+    
     wx.navigateTo({
       url: '../a/a'
     })
@@ -50,5 +52,5 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
-  }
+  },
 })

@@ -79,7 +79,7 @@
 }
 .bar{
   width: 25%;
-  height: auto;
+  height: 50rpx;
   line-height: auto;
   color: #999;
   text-align: center;
@@ -92,7 +92,7 @@
   background: #6e4a3e;
 }
 .bar1{
-  width: 100%;
+  width: 25%;
   height: 97.916rpx;
   line-height: 97.916rpx;
   color: #999;

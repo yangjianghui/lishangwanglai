@@ -6,17 +6,17 @@ Page({
    */
   data: {
     array:[{
-      text: "小龙虾", img: "../../images/zhuan_03.jpg"
+      text: "小龙虾", img: "../../images/zhuan_03.jpg", imgg:"../../images/zhuan_16.jpg"
     }, {
-        text: "粽子", img: "../../images/zhuan_06.jpg"
+        text: "粽子", img: "../../images/zhuan_06.jpg", imgg: "../../images/zhuan_16.jpg"
     },{
-        text: "奶茶", img: "../../images/zhuan_08.jpg"
+        text: "奶茶", img: "../../images/zhuan_08.jpg", imgg: "../../images/zhuan_16.jpg"
     },{
-        text: "电池", img: "../../images/zhuan_10.jpg"
+        text: "电池", img: "../../images/zhuan_10.jpg", imgg: "../../images/zhuan_16.jpg"
     }, {
-        text: "外卖", img: "../../images/zhuan_12.jpg"
+        text: "外卖", img: "../../images/zhuan_12.jpg", imgg: "../../images/zhuan_16.jpg"
     }, {
-        text: "化妆品", img: "../../images/zhuan_14.jpg"
+        text: "化妆品", img: "../../images/zhuan_14.jpg", imgg: "../../images/zhuan_16.jpg"
     }],
    
   },

@@ -1,4 +1,5 @@
 App({
+  
   onLaunch(options) {
     console.log('onlaunch')
     console.log(options);
@@ -22,5 +23,6 @@ App({
   },
   abc: {
 
-  }
+  },
+  
 });
