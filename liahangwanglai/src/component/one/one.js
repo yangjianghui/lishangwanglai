@@ -4,9 +4,31 @@ import {NavLink} from 'react-router-dom'
 
 export default class one extends Component{
     constructor(){
-        super()
+        super();
+        this.state = {
+            tabs:[
+                {tabName:"待参加",id:1},
+                {tabName:"已参加",id:2},
+            ],
+            currentIndex:1,
+        };
+    }
+    componentDidMount() {
+        
+    }
+    tabChoiced=(id)=>{
+        // tab切换的方法
+        this.setState({
+            currentIndex:id
+        });
     }
     render(){
+        var _this=this;
+        var tabList= this.state.tabs.map(function(res,index) {
+            var tabStyle=res.id==this.state.currentIndex ? 'subCtrl active' : 'subCtrl';
+            return    
+                <li key={index} onClick={this.tabChoiced.bind(_this,res.id)} className={tabStyle}>{res.tabName}</li>
+        }.bind(_this));
         return (
             <div style={{background:'#f2f2f2',height:'546px'}}>
                 <div className="hea">
@@ -14,8 +36,7 @@ export default class one extends Component{
                         <img src="http://www.axshare.cn/gsc/9B0J2A/6b/b2/f3/6bb2f30d8aa742729e588769883d60fd/images/礼账列表/u84.png?token=ff14f5b935ac8f26062b70423e3cb04b0b48431c30ba266bdf3e352e1993d7e2" />
                     </NavLink>
                     <div className="ss">
-                        <NavLink to="li">待参加</NavLink>
-                        <NavLink to="shong">已参加</NavLink>
+                        {tabList}
                     </div>
                     <div>
                         <img src="http://www.axshare.cn/gsc/9B0J2A/6b/b2/f3/6bb2f30d8aa742729e588769883d60fd/images/礼账列表/u90.svg?token=fe9fb97c4e04137da23a4c642d6e6761a2b86dc595a3e4cd1dbd530da68be456" />
