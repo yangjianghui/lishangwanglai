@@ -29,7 +29,7 @@
     margin-left: 50px;
     margin-top: 5px;
 }
-.ss li{
+.ss span{
     width: 49.999%;
     float: left;
     line-height: 39px;
@@ -89,4 +89,24 @@
 .mu_right_bottom{
     color: #999999;
     text-align: right;
+}
+/* span{
+    display: inline-block;
+    margin:10px;
+    width: 100px;
+    height: 30px;
+    text-align:center;
+} */
+.activee{
+    background:orange;
+
+}
+ul{
+    width: 300px;
+    height: 200px;
+    text-align:center;
+    display:none;
+}
+.active1{
+    display:block;
 }
