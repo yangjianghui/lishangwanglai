@@ -1,8 +1,8 @@
 import React,{Component} from 'react'
-import './lishi.css'
+import './shong.css'
 import {NavLink} from 'react-router-dom'
 
-export default class lishi extends Component{
+export default class shong extends Component{
     constructor(){
         super()
     }
@@ -10,7 +10,7 @@ export default class lishi extends Component{
         return (
             <div style={{background:'#f2f2f2',height:'546px'}}>
                 <div className="hea">
-                    <NavLink to="/" className="lll">
+                    <NavLink to="/">
                         <img src="http://www.axshare.cn/gsc/9B0J2A/6b/b2/f3/6bb2f30d8aa742729e588769883d60fd/images/礼账列表/u84.png?token=ff14f5b935ac8f26062b70423e3cb04b0b48431c30ba266bdf3e352e1993d7e2" />
                     </NavLink>
                     <div className="ss">
@@ -37,10 +37,10 @@ export default class lishi extends Component{
                     </div>
                     <div className="mu_right">
                         <div className="mu_right_top">
-                            15000.00
+                            1000.00
                         </div>
                         <div className="mu_right_bottom">
-                            10人送礼      2016.5.21
+                            2016.5.21
                         </div>
                     </div>
                 </div>
@@ -55,10 +55,10 @@ export default class lishi extends Component{
                     </div>
                     <div className="mu_right">
                         <div className="mu_right_top">
-                            15000.00
+                            1000.00
                         </div>
                         <div className="mu_right_bottom">
-                            10人送礼      2016.5.21
+                            2016.5.21
                         </div>
                     </div>
                 </div>

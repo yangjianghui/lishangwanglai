@@ -32,8 +32,18 @@
     height: 44px;
     border-bottom: 2px solid rgba(242, 242, 242, 1);
     color: #333;
+    width: 100%;
 }
-.li div:nth-of-type(2){
+.shang{
+    margin-left: 10px;
+    width: 90%;
+    float: left;
+}
+.leftqq{
+    /* height: 44px; */
+    /* line-height: 50px; */
+    /* margin-left: 10px; */
+    /* float: left; */
     position: absolute;
     background: black;
     top: 15px;
@@ -41,6 +51,7 @@
     height: 20px;
     right: 10px;
 }
-.shang{
-    margin-left: 10px;
+.leftqq img{
+    width: 19px;
+    height: 19px;
 }

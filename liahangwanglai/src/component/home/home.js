@@ -1,5 +1,6 @@
 import React,{Component} from 'react'
 import './home.css'
+import {NavLink} from 'react-router-dom'
 
 export default class home extends Component{
     constructor(){
@@ -65,7 +66,9 @@ export default class home extends Component{
                         <li>用户</li>
                         <li>历史盈亏</li>
                         <li>本月盈亏</li>
-                        <li>更多</li>
+                        <li>
+                            <NavLink to='./more'>更多</NavLink>
+                        </li>
                     </ul>
                     <div className='list_content'>
                         <div className='list1'>

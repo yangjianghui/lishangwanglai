@@ -4,12 +4,25 @@
     bottom: 150px;
     height: 60px;
     background: #fff;
-    line-height: 60px;
+    line-height: 20px;
     display: flex;
 }
 #footer li{
     text-align: center;
     flex: 1;
+    margin-top: 10px;
+}
+#footer li a{
+    width: 100%;
+}
+#footer li a .img{
+    width: 19px;
+    height: 19px;
+}
+.text{
+    width: 100%;
+    height: 16px;
+    font-size: 16px;
 }
 #footer li a{
     color: #000;

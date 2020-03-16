@@ -36,7 +36,7 @@
     text-align: center;
     color: rgba(25, 158, 216, 1);
 }
-.ss a:nth-of-type(1){
+.ss a:nth-of-type(2){
     background: rgba(25, 158, 216, 1);
     color: #fff;
 }
@@ -49,7 +49,7 @@
     width: 24px;
     height: 24px;
 }
-.lei{
+.leiq{
     height: 39px;
     line-height: 39px;
     text-align: center;
@@ -58,11 +58,11 @@
     border-bottom: 10px solid #f2f2f2;
     background: #fff;
 }
-.lei div{
-    width: 32.3333%;
+.leiq div{
+    width: 49%;
     float: left;
 }
-.lei div:nth-of-type(1),.lei div:nth-of-type(2){
+.leiq div:nth-of-type(1){
     border-right: 2px solid #f2f2f2;
 }
 .mu{
@@ -78,14 +78,14 @@
 }
 .mu_right{
     float: right;
-    margin-left: 15px;
+    margin-right: 15px;
     line-height: 30px;
 }
-.mu_right_top{
+.mu_right_topp{
     font-family: 'Arial Negreta', 'Arial';
     font-weight: 700;
     font-style: normal;
-    font-size: 28px;
+    font-size: 14px;
     color: #FF0000;
     text-align: right;
 }

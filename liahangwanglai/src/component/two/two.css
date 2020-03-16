@@ -26,11 +26,12 @@
 }
 .right{
     position: absolute;
-    top: 15px;
+    top: 2px;
     width: 40px;
     height: 40px;
     right: 10px;
     color: #199ED8;
+    font-size: 12px;
 }
 .kuang{
     box-sizing: border-box;

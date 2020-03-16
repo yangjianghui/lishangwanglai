@@ -1,0 +1,75 @@
+.head{
+    height: 51px;
+    width: 100%;
+    line-height: 51px;
+    background: #fff;
+}
+.imgg{
+    margin-left: 15px;
+    line-height: 51px;
+    float: left;
+}
+.pai{
+    line-height: 51px;
+    flex: 1;
+    text-align: center;
+    font-family: 'Arial Negreta', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+}
+.an{
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+}
+.an a{
+    font-family: 'Arial Normal', 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    color: #333333;
+    text-align: center;
+    line-height: 44px;
+    width: 33.33333%;
+    float: left;
+    
+}
+.an a:active{
+    background: inherit;
+    background-color: rgba(208, 216, 218, 1);
+}
+.hang{
+    height: 35px;
+    background: inherit;
+    background-color: rgba(188, 188, 188, 1);
+}
+.hang li{
+    width: 18%;
+    float: left;
+    font-family: 'Arial Negreta', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 5px;
+    height: 35px;
+    line-height: 35px;
+}
+.one{
+    height: 26px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+.one li{
+    width: 18%;
+    float: left;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    color: #333333;
+    text-align: left;
+    margin-left: 5px;
+    height: 26px;
+    line-height: 26px;
+}

@@ -1,1 +1,9 @@
 /* pages/d/d.wxss */
+.box{
+  width: 100%;
+  height: auto;
+  background: #ee5e2c;
+}
+.header{
+  
+}
